@@ -1,0 +1,46 @@
+{
+  "scheme": {
+    "welcomeHeading": {
+      "selector": "#welcome"
+    },
+    "title": {
+      "selector": "#title"
+    },
+    "subtitle": {
+      "selector": "#subtitle"
+    },
+    "langButton": {
+      "selector": "#lang-button"
+    }
+  },
+  "locales": {
+    "length": 2,
+    "items": {
+      "cs": {
+        "welcomeHeading": {
+          "value": "Ahoj :)"
+        },
+        "title": {
+          "value": "Dnes má svátek {0}!"
+        },
+        "subtitle": {
+          "value": "Všechno nejlepší!"
+        },
+        "langButton": {
+          "value": "Přepnout jazyk"
+        }
+      },
+      "sk": {
+        "title": {
+          "value": "Dnes má meniny {0}!"
+        },
+        "subtitle": {
+          "value": "Všetko najlepšie!"
+        },
+        "langButton": {
+          "value": "Prepnúť jazyk"
+        }
+      }
+    }
+  }
+}
