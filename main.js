@@ -32,7 +32,7 @@ let locale = getLocale();
 const fetchNameDayPromise = getFetchPromise(locale);
 const dataExtractors = {
   getName(data) {
-    const month = TODAY.getMonth() + 1;
+    const month = TODAY.getMonth();
     const day = TODAY.getDay();
     return {
       cs: data?.name,
